@@ -338,8 +338,7 @@
         <div id="request-url" class="clearfix">
             <div id="request-url-wrapper">
                 <div id="request-url-container">
-                    <input type="text" name="url" id="url" tabindex="1" class="input-text-light"
-                           placeholder="Enter request URL here"/>
+                    <input type="text" name="url" id="url" tabindex="1" class="input-text-light" placeholder="Enter request URL here"/>
                 </div>
             </div>
             <div id="request-modifiers">
@@ -460,16 +459,16 @@
                 id="preview-request">Preview
         </button>
         <button class="btn"
-                data-action="print"
-                id="print-request">Print
-        </button>
-        <button class="btn"
                 id="add-to-collection"
                 href="#modal-add-to-collection"
                 data-toggle="modal" data-backdrop="static"
                 data-keyboard="true">Add to collection
         </button>
         <button class="btn btn-danger" id="request-actions-reset">Reset
+        </button>
+        <button class="btn"
+                data-action="print"
+                id="print-result-request">Print
         </button>
     </div>
     <div id="request-actions-secondary">
@@ -1037,7 +1036,7 @@
 
                     <p class="help-block">
                         See <a
-                            href="https://github.com/a85/POSTMan-Chrome-Extension/wiki/Postman-Proxy">documentation</a>
+                            href="https://github.com/gvozdev1986/CRX_HELPER/blob/master/README.md">documentation</a>
                         for usage instructions.
                     </p>
                 </div>
@@ -1059,64 +1058,17 @@
     <div class="modal-header">
         <a class="close" data-dismiss="modal">×</a>
 
-        <h3>Make Postman better!</h3>
+        <h3>Make CRXHelper better!</h3>
     </div>
     <div class="modal-body">
-        <table class="table table-striped">
-            <tr>
-                <td>
-                    <strong>Pay through your credit card or Paypal</strong>
-
-                    <div class="paypal-donate-form">
-                        If you found Postman useful, pay through your credit card or
-                        Paypal to help the project grow even more!
-                        The payment will go into the design, development and maintenance of the project.
-
-                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="UZTSEWB887WDJ">
-                            <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_paynowCC_LG.gif"
-                                   border="0" name="submit" alt="PayPal — The safer, easier way to pay online.">
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1"
-                                 height="1">
-                        </form>
-
-                    </div>
-                </td>
-            </tr>
             <tr>
                 <td>
                     <a target="_blank"
                        href="https://chrome.google.com/webstore/detail/fdmmgilgnpjigdojojpjoooidkmcomcm/reviews">Write a
                         review</a>
-
                     <p>
                         We would love a good review. A bad review would hurt but make it as informative as possible!
                     </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a target="_blank" href="https://github.com/a85/POSTMan-Chrome-Extension">Check out the source
-                        code</a>
-
-                    <p>
-                        Found a bug or want to add a feature? Let us know or checkout the code.
-                        Postman is licensed under the Apache Licence, Version 2.0.
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <strong>Share Postman</strong>
-
-                    <div class="spreadtheword-sharebuttons">
-                        <div id="about-postman-social-buttons" class="clearfix">
-                            <div id="about-postman-twitter-button"></div>
-                            <div id="about-postman-plus-one-button"></div>
-                            <div id="about-postman-facebook-button"></div>
-                        </div>
-                    </div>
                 </td>
             </tr>
         </table>

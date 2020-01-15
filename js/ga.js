@@ -12,7 +12,7 @@ _gaq.push(['_trackPageview']);
 })();
 
 //CPA - Testing
-var service = analytics.getService('Postman - REST Client');
+var service = analytics.getService('CRXHelper - REST Client');
 var tracker = service.getTracker('UA-43979731-5');
 // TODO - add permission for tracking users.
 tracker.sendAppView('MainView');

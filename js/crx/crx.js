@@ -13,6 +13,27 @@ document.getElementById("adminBtn").addEventListener("click", function () {
         },
         false);
 
+document.getElementById("print-result-request").addEventListener("click", function () {
+        console.log("Print Page");
+
+            var printWindow = window.open('', 'PRINT', 'height=400,width=600');
+            var request = document.getElementById("url");
+
+            printWindow.document.write('<html><head><title>RESPONSE</title>');
+            printWindow.document.write('</head><body >');
+            printWindow.document.write('<h1> REQUEST: ' + request.value.toLowerCase()  + '</h1>');
+            printWindow.document.write(document.getElementById("response-editors").innerHTML);
+            printWindow.document.write('</body></html>');
+
+            printWindow.document.close(); // necessary for IE >= 10
+            printWindow.focus(); // necessary for IE >= 10*/
+
+            printWindow.print();
+            printWindow.close();
+
+            return true;
+    }
+)
 
 document.getElementById("searchFiledResponse").addEventListener("keyup", function () {
 

@@ -25,7 +25,7 @@ pm.layout = {
         noty(
         {
             type:'information',
-            text:"Click here to get the Postman Launcher for quick access to Postman from the Chrome toolbar",
+            text:"Click here to get the CRXHelper Launcher for quick access to CRXHelper from the Chrome toolbar",
             layout:'topRight',
             callback: {
                 onClose: function() {
